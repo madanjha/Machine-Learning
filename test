@@ -1,0 +1,294 @@
+Linear Regression Assignment Quiz
+Scored / Total marks: 26 / 35
+How many employees having more than 5 years experience are earning more than 60000?
+
+Marked Answer :
+14 
+Correct Answer : 14
+Total Marks :1MARKS OBTAINED1
+How many employees are earning between 50000-80000?
+
+Marked Answer :
+12 
+Correct Answer : 12
+Total Marks :1MARKS OBTAINED1
+The scatter plot in the following image shows the relationship between the
+“YearsExperience” and “Salary” columns. What possible inferences can be drawn from the
+plot?
+
+
+
+Marked Answer :
+The plot shows a positive correlation between the ‘YearsExperience” and “Salary” column. 
+Correct Answer : The plot shows a positive correlation between the ‘YearsExperience” and “Salary” column.
+Total Marks :1MARKS OBTAINED1
+The distribution plot of the column “YearsExperience” is shown in the image below, what possible inferences can be drawn from the plot.
+
+
+
+Marked Answer :
+“YearsExperience” data is positively skewed. 
+Correct Answer : “YearsExperience” data is positively skewed.
+Total Marks :1MARKS OBTAINED1
+What all inferences can be drawn from the table shown below:
+
+
+
+Marked Answer :
+The range of the “YearsExperience” and “Salary” data is (9.4 , 84660 ) 
+Correct Answer : The range of the “YearsExperience” and “Salary” data is (9.4 , 84660 )
+Total Marks :1MARKS OBTAINED1
+To split the dataset into training and testing data, if we use the following
+code. X = data[‘YearsExperience’]
+y = data[‘Salary’]
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
+random_state=0) What does it mean when we write the test size as 0.2?
+
+Marked Answer :
+The training data will consist of 80% of the samples from the total population. 
+Correct Answer : The training data will consist of 80% of the samples from the total population.
+Total Marks :1MARKS OBTAINED1
+In the above example code, we have taken the random state as 0, if we change the
+random state as 42, what does it mean for our training and testing data?
+
+Marked Answer :
+The random state does not have any effect on the shape of the data. 
+Correct Answer : The random state does not have any effect on the shape of the data.
+Total Marks :1MARKS OBTAINED1
+If the r2 score calculated in the above example is 0.98 , change the sample size of
+the training and testing set in the ratio 60:40, and build a linear regression model again.
+After plotting the best fit line on the test data, calculate the r2_score for the new model.
+
+Marked Answer :
+0.95-0.97 
+Correct Answer : 0.95-0.97
+Total Marks :1MARKS OBTAINED1
+If while fitting the model with training and testing data, you get the following error
+ValueError: Expected 2D array, got 1D array instead: What could be
+the issue with the data, and how can you solve it?
+
+Marked Answer :
+Reshape the data to a two dimensional array 
+Correct Answer : Reshape the data to a two dimensional array
+Total Marks :1MARKS OBTAINED1
+The exercise after this contains questions that are based on the housing dataset.
+
+How many houses have a waterfront?
+
+Marked Answer :
+163 
+Correct Answer : 163
+Total Marks :1MARKS OBTAINED1
+The exercise after this contains questions that are based on the housing dataset.
+
+How many houses have 2 floors?
+
+Marked Answer :
+8241 
+Correct Answer : 8241
+Total Marks :1MARKS OBTAINED1
+The exercise after this contains questions that are based on the housing dataset.
+
+How many houses built before 1960 have a waterfront?
+
+Marked Answer :
+80 
+Correct Answer : 80
+Total Marks :1MARKS OBTAINED1
+The exercise after this contains questions that are based on the housing dataset.
+
+What is the price of the most expensive house having more than 4 bathrooms? 
+
+Marked Answer :
+7700000 
+Correct Answer : 7700000
+Total Marks :1MARKS OBTAINED1
+The exercise after this contains questions that are based on the housing dataset.
+
+The image shown below shows the boxplot of the price column from the housing dataset. What inferences can you make from the plot?
+
+
+
+Marked Answer :
+There is a presence of outliers in the price data. 
+Correct Answer : There is a presence of outliers in the price data.
+Total Marks :1MARKS OBTAINED1
+The exercise after this contains questions that are based on the housing dataset.
+
+For instance, if the ‘price’ column consists of outliers, how can you make the data clean and remove the redundancies?
+
+Marked Answer :
+Calculate the Z-score of the price column and remove the values less than the z-score. 
+Correct Answer : Calculate the IQR range and drop the values outside the range.
+Total Marks :1MARKS OBTAINED0
+The exercise after this contains questions that are based on the housing dataset.
+
+What are the various parameters that can be used to determine the dependent variables in the housing data to determine the price of the house?
+
+Marked Answer :
+Both of the answers 
+Correct Answer : Both of the answers
+Total Marks :1MARKS OBTAINED1
+The exercise after this contains questions that are based on the housing dataset.
+
+If we get the r2 score as 0.38, what inferences can we make about the model and its efficiency?
+
+Marked Answer :
+The model has 38 wrong predictions and shows poor efficiency. 
+Correct Answer : High difference between observed and fitted values.
+Total Marks :1MARKS OBTAINED0
+What will be the appropriate metrics for performance evaluation of Linear Regression model?
+Marked Answer :
+ r2_score 
+Correct Answer :  r2_score
+Total Marks :1MARKS OBTAINED1
+The exercise after this contains questions that are based on the housing dataset.
+
+If the Variance Inflation Factor value for a feature is considerably higher than the other features, what can we say about that column/feature?
+
+Marked Answer :
+Both 1 and 2 
+Correct Answer : High multicollinearity
+Total Marks :1MARKS OBTAINED0
+Use the diamond.csv of size : 53940 x 10 for the questions mentioned below
+
+Which feature has the highest positive correlation with the target variable price using Heat map?
+
+
+
+Marked Answer :
+Table 
+Correct Answer : Carat
+Total Marks :1MARKS OBTAINED0
+Use the diamond.csv of size : 53940 x 10 for the questions mentioned below
+How many unique values present in the feature clarity?
+
+Marked Answer :
+8 
+Correct Answer : 8
+Total Marks :1MARKS OBTAINED1
+Use the diamond.csv of size : 53940 x 10 for the questions mentioned below
+Which category in the feature cut has more records?
+
+Marked Answer :
+Ideal 
+Correct Answer : Ideal
+Total Marks :1MARKS OBTAINED1
+Use the diamond.csv of size : 53940 x 10 for the questions mentioned below
+Which color diamond has the highest sum price?
+
+Marked Answer :
+G 
+Correct Answer : G
+Total Marks :1MARKS OBTAINED1
+Use the diamond.csv of size : 53940 x 10 for the questions mentioned below
+Which of the below statements is correct with respect to the column price?
+
+
+Marked Answer :
+Frequency is approximately same in all prices 
+Correct Answer : Price Decreases Frequency Increases
+Total Marks :1MARKS OBTAINED0
+Use the diamond.csv of size : 53940 x 10 for the questions mentioned below
+Which of the combination of Color and Clarity have a high mean price value?
+
+Marked Answer :
+D & IF 
+Correct Answer : D & IF
+Total Marks :1MARKS OBTAINED1
+Use the diamond.csv of size : 53940 x 10 for the questions mentioned below
+How many records are having value as 0 in all the features x, y, z?
+
+Marked Answer :
+7 
+Correct Answer : 7
+Total Marks :1MARKS OBTAINED1
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+The feature Fuel Type has 100 null values. Choose the right option to fill the null values?
+
+Marked Answer :
+Diesel 
+Correct Answer : Petrol
+Total Marks :1MARKS OBTAINED0
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+Choose the right encoding type for the feature Fuel Type?
+
+Marked Answer :
+Target encoding 
+Correct Answer : One-hot encoding
+Total Marks :1MARKS OBTAINED0
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+Choose the correct CC value having the second lowest price?
+
+Marked Answer :
+2000 
+Correct Answer : 2000
+Total Marks :1MARKS OBTAINED1
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+Choose the correct Doors type having the second highest mean price?
+
+Marked Answer :
+3 
+Correct Answer : 3
+Total Marks :1MARKS OBTAINED1
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+Consider the coefficients for the features KM, HP, Doors are -0.0369, 89.3144, 1012.8434 respectively, choose the right absolute error for the below given data?
+KM HP Doors Price
+6000 90 5 24990
+
+Marked Answer :
+12108.88 
+Correct Answer : 12108.88
+Total Marks :1MARKS OBTAINED1
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+Choose the skew type for the given graph?
+
+
+Marked Answer :
+Right Skewed or Negatively Skewed data 
+Correct Answer : Right Skewed or Positively Skewed data
+Total Marks :1MARKS OBTAINED0
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+Choose the correct feature having less correlation to the target variable price from below data?
+
+
+Marked Answer :
+Age 
+Correct Answer : CC
+Total Marks :1MARKS OBTAINED0
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+Choose the best option to deal with the outliers in the below boxplot for feature HP?
+
+
+Marked Answer :
+Remove the outlier record as the count is negligible 
+Correct Answer : Remove the outlier record as the count is negligible
+Total Marks :1MARKS OBTAINED1
+Use the ToyotaCorollaX.csv of size : 1436 x 11 for the questions mentioned below
+Choose the correct correlation between Age and KM with the below scatterplot?
+
+
+Marked Answer :
+Weak Positive Correlation 
+Correct Answer : Weak Positive Correlation
+Total Marks :1MARKS OBTAINED1
+Back
+
+Linear Regression Assignment Quiz
+
+40% of course completed
+
+Support
+ 
+Notes
+Self-Paced
+Live Classes
+Study Materials
+Quiz is Submitted
+
+Marks Obtained
+26
+ Remarks
+Overdue
+Check Results
+Download Attachment
